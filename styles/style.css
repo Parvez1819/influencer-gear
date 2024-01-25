@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+/* header section styles starts here */
+.nav-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container h1 {
+    font-size: 1.5rem;
+    color: #3A3A3A;
+}
+
+.nav-content {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-content a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+/* headeer section styles ends here */
+
+/* simple banner section styles here */
+.simple-banner-section {
+    max-width: 1400px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.simple-banner-content {
+    width: 50%;
+
+}
+
+.simple-banner-content h1 {
+    font-size: 3.2rem;
+    color: #3A3A3A;
+    font-weight: 700;
+
+}
+
+.simple-banner-content p {
+    padding: 16px 0;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.simple-banner-content button {
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.simple-banner-img {
+
+    border-radius: 475px;
+    border: 3px solid #F1E4FF;
+}
+.simple-banner-img img{
+    text-align: center;
+}
+/* simple banner section styles ends here */
