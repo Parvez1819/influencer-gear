@@ -1,19 +1,46 @@
 @media screen and (max-width:576px) {
-    .nav-container{
+    .nav-container {
         flex-direction: column;
     }
-    .nav-content{
+
+    .nav-content {
         width: 90%;
     }
+
     /* simple banner responsive style */
-    .simple-banner-section{
+    .simple-banner-section {
         flex-direction: column-reverse;
         text-align: center;
     }
-.simple-banner-content {
-    width: 100%;
-}
-.simple-banner-content h1{
-    font-size: 2.5rem;
-}
+
+    .simple-banner-content, .gear-content, .gear-img {
+        width: 100%;
+    }
+
+    .simple-banner-content h1 {
+        font-size: 2.5rem;
+    }
+    /* sponsor section responsive styles */
+    .sponsor-img{
+        flex-wrap: wrap;
+    }
+    .sponsor-img img{
+        margin-bottom: 25px;
+    }
+    /* collection container responsive */
+    .card-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* gear section responsive */
+    .gear-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .gear-img img{
+      width: 100%;
+    }
+    .gear-content p{
+        text-align: justify;
+    }
 }
